@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    max-width: 1500px;
+    padding: 1rem;
+}
+.topHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.newsCategory{
+    display: none;
+    
+}
+.category{
+   
+    color: grey;
+    text-decoration: none;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5rem;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5rem; 
+}
+.navList
+{
+    list-style: none;
+    text-decoration: none;
+    list-style: none;
+    text-decoration: none;
+}
+.material-symbols-outlined{
+    color: black;
+}
+.inputButton{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5rem;
+    border: none; 
+}
+#flashNews{
+width: 100%;
+height: 100%;
+max-width: 25rem;
+max-height: 25rem;
+}
+#Description{
+    padding: 1rem;
+    font-size: 3rem;
+}
+
+.articleList{
+    background-color: bisque;
+
+}
+#MainArticleImage{
+    width: 100%;
+    height: 100%;
+}
+
+.newsList{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: whitesmoke;
+       
+    border-radius: 0.5rem;
+    .article-card {
+        
+        width: 300px;
+        padding: 10px;
+        margin: 10px;
+        border: 1px solid #ccc;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+      }
+      
+      .news {
+        width: 100%;
+        max-height: 200px; 
+        object-fit: cover;
+      }
+      
+}
+
+#readMore{
+    background-color: blue;
+    color: white;
+    padding: 0.5rem 1rem;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: brown; 
+    width: 100%;
+    max-width: 1500px;
+    padding: 1rem;
+    color: beige;
+    .material-symbols-outlined{
+        color: rgb(241, 240, 240);
+    }
+    .footerIcons{
+        display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    }
+}
+@media screen and (min-width: 480px){
+   
+    .newsCategory{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 0.5rem;
+        list-style: none;
+        
+    }
+    #name{
+        color: brown;
+    }
+    .newsList{
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+    }
+}
