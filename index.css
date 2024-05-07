@@ -85,7 +85,7 @@ max-height: 25rem;
        
     border-radius: 0.5rem;
     .article-card {
-        
+        background-color: grey;
         width: 300px;
         padding: 10px;
         margin: 10px;
